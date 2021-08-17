@@ -23,11 +23,11 @@ use g4t\IDScanner\Scanner;
 
 ##### upload identity image `base64` or `file` :
 ```sh
-return Scanner::scan($request->images, 'files');
+Scanner::scan($request->images, 'files');
 ```
 ### OR 
 ```sh
-return Scanner::scan($request->images, 'base64');
+Scanner::scan($request->images, 'base64');
 ```
 
 
