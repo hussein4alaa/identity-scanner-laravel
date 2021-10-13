@@ -18,9 +18,17 @@ pipeline {
       }
     }
 
-    stage('Build') {
+    stage('npm') {
       steps {
-        echo 'Building'
+        sh 'npm install'
+        echo 'npm installing'
+      }
+    }
+
+    stage('build') {
+      steps {
+        sh 'npm run build'
+        echo 'building'
       }
     }
 
