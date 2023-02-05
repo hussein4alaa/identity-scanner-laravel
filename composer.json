@@ -2,6 +2,9 @@
     "name": "g4t/id-scanner",
     "description": "scanner",
     "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
