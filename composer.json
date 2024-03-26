@@ -3,7 +3,7 @@
     "description": "scanner",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^7.2"
+        "guzzlehttp/guzzle": "^7.8"
     },
     "license": "MIT",
     "autoload": {
